@@ -1,5 +1,14 @@
 {
     "require": {
-        "kiddyu/beanbun": "^1.0"
+        "jaeger/querylist": "^3.2",
+        "jaeger/querylist-ext-request": "^1.0",
+        "symfony/process": "^3.3",
+        "fabpot/goutte": "^3.2",
+        "jaeger/querylist-ext-login": "^1.0",
+        "jaeger/querylist-ext-multi": "^1.0",
+        "jaeger/querylist-ext-dimage": "^1.1",
+        "dzer/coltaobao": "^2.1",
+        "owner888/phpspider": "^2.0",
+        "electrolinux/phpquery": "^0.9.6"
     }
 }

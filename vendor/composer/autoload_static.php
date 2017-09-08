@@ -7,15 +7,34 @@ namespace Composer\Autoload;
 class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
 {
     public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'W' => 
+        'p' => 
         array (
-            'Workerman\\' => 10,
+            'phpspider\\' => 10,
+        ),
+        'd' => 
+        array (
+            'dzer\\coltaobao\\' => 15,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Component\\Process\\' => 26,
+            'Symfony\\Component\\DomCrawler\\' => 29,
+            'Symfony\\Component\\CssSelector\\' => 30,
+            'Symfony\\Component\\BrowserKit\\' => 29,
+        ),
+        'Q' => 
+        array (
+            'QL\\Ext\\Lib\\' => 11,
+            'QL\\Ext\\' => 7,
+            'QL\\' => 3,
         ),
         'P' => 
         array (
@@ -26,17 +45,55 @@ class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
-        ),
-        'B' => 
-        array (
-            'Beanbun\\' => 8,
+            'Goutte\\' => 7,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Workerman\\' => 
+        'phpspider\\' => 
         array (
-            0 => __DIR__ . '/..' . '/workerman/workerman',
+            0 => __DIR__ . '/..' . '/owner888/phpspider',
+        ),
+        'dzer\\coltaobao\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dzer/coltaobao/src',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'Symfony\\Component\\Process\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/process',
+        ),
+        'Symfony\\Component\\DomCrawler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/dom-crawler',
+        ),
+        'Symfony\\Component\\CssSelector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/css-selector',
+        ),
+        'Symfony\\Component\\BrowserKit\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/browser-kit',
+        ),
+        'QL\\Ext\\Lib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jaeger/http',
+            1 => __DIR__ . '/..' . '/jaeger/curlmulti',
+        ),
+        'QL\\Ext\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jaeger/querylist-ext-aquery',
+            1 => __DIR__ . '/..' . '/jaeger/querylist-ext-dimage',
+            2 => __DIR__ . '/..' . '/jaeger/querylist-ext-request',
+            3 => __DIR__ . '/..' . '/jaeger/querylist-ext-login',
+            4 => __DIR__ . '/..' . '/jaeger/querylist-ext-multi',
+        ),
+        'QL\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jaeger/querylist',
         ),
         'Psr\\Http\\Message\\' => 
         array (
@@ -54,10 +111,32 @@ class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Beanbun\\' => 
+        'Goutte\\' => 
         array (
-            0 => __DIR__ . '/..' . '/kiddyu/beanbun/src',
+            0 => __DIR__ . '/..' . '/fabpot/goutte/Goutte',
         ),
+    );
+
+    public static $classMap = array (
+        'Callback' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
+        'CallbackBody' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
+        'CallbackParam' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
+        'CallbackParameterToReference' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
+        'CallbackReturnReference' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
+        'CallbackReturnValue' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
+        'DOMDocumentWrapper' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/DOMDocumentWrapper.php',
+        'DOMEvent' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/DOMEvent.php',
+        'ICallbackNamed' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
+        'phpQuery' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery.php',
+        'phpQueryEvents' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/phpQueryEvents.php',
+        'phpQueryObject' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/phpQueryObject.php',
+        'phpQueryObjectPlugin_Scripts' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/plugins/Scripts.php',
+        'phpQueryObjectPlugin_WebBrowser' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/plugins/WebBrowser.php',
+        'phpQueryObjectPlugin_example' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/plugins/example.php',
+        'phpQueryPlugin_Scripts' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/plugins/Scripts.php',
+        'phpQueryPlugin_WebBrowser' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/plugins/WebBrowser.php',
+        'phpQueryPlugin_example' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/plugins/example.php',
+        'phpQueryPlugins' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -65,6 +144,7 @@ class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit24d525ed29f8a075f6821b249dc23560::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit24d525ed29f8a075f6821b249dc23560::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit24d525ed29f8a075f6821b249dc23560::$classMap;
 
         }, null, ClassLoader::class);
     }
