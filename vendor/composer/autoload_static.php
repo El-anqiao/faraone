@@ -36,6 +36,10 @@ class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
             'QL\\Ext\\' => 7,
             'QL\\' => 3,
         ),
+        'Q' => 
+        array (
+            'QL\\' => 3,
+        ),
         'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
@@ -95,6 +99,10 @@ class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
         array (
             0 => __DIR__ . '/..' . '/jaeger/querylist',
         ),
+        'QL\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jaeger/querylist',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
@@ -118,6 +126,7 @@ class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
     );
 
     public static $classMap = array (
+
         'Callback' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
         'CallbackBody' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
         'CallbackParam' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
@@ -137,6 +146,7 @@ class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
         'phpQueryPlugin_WebBrowser' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/plugins/WebBrowser.php',
         'phpQueryPlugin_example' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/plugins/example.php',
         'phpQueryPlugins' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery.php',
+        
     );
 
     public static function getInitializer(ClassLoader $loader)

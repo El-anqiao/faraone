@@ -9,6 +9,9 @@
         "jaeger/querylist-ext-dimage": "^1.1",
         "dzer/coltaobao": "^2.1",
         "owner888/phpspider": "^2.0",
-        "electrolinux/phpquery": "^0.9.6"
+        "electrolinux/phpquery": "^0.9.6",
+        "kiddyu/beanbun": "^1.0"
+
+
     }
 }
