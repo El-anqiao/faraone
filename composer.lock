@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "content-hash": "9bcee7f7610547e63ddbbd81b696d753",
-=======
-    "content-hash": "b4b6853cb62df542ff104b4bf5bc16f8",
->>>>>>> 17860097a0e61232ef2e2ead88bb4ce3bdeb86f9
+    "content-hash": "65f424df5b7bd0abdcfadefdbcfac659",
     "packages": [
         {
             "name": "dzer/coltaobao",
@@ -324,102 +320,8 @@
             "time": "2017-03-20T17:10:46+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "jaeger/curlmulti",
             "version": "1.0",
-=======
-            "name": "jaeger/phpquery-single",
-            "version": "0.9.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jae-jae/phpQuery-single.git",
-                "reference": "4b1dc2b2625a4a142f21a0b85a4254c327dfc5c4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/jae-jae/phpQuery-single/4b1dc2b2625a4a142f21a0b85a4254c327dfc5c4.zip",
-                "reference": "4b1dc2b2625a4a142f21a0b85a4254c327dfc5c4",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "phpQuery.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tobiasz Cudnik",
-                    "email": "tobiasz.cudnik@gmail.com",
-                    "homepage": "https://github.com/TobiaszCudnik",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Jaeger",
-                    "role": "Packager"
-                }
-            ],
-            "description": "phpQuery单文件版本，是Querylist的依赖(http://querylist.cc/)，phpQuery项目主页:http://code.google.com/p/phpquery/",
-            "homepage": "http://code.google.com/p/phpquery/",
-            "time": "2016-01-02T17:34:12+00:00"
-        },
-        {
-            "name": "jaeger/querylist",
-            "version": "V3.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jae-jae/QueryList.git",
-                "reference": "1a7864dcf8d979d6d57a2a3508f2dd62ce3233d6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/jae-jae/QueryList/1a7864dcf8d979d6d57a2a3508f2dd62ce3233d6.zip",
-                "reference": "1a7864dcf8d979d6d57a2a3508f2dd62ce3233d6",
-                "shasum": ""
-            },
-            "require": {
-                "jaeger/phpquery-single": "^0.9",
-                "php": ">=5.3.0"
-            },
-            "suggest": {
-                "monolog/monolog": "Log support"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "QL\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jaeger",
-                    "email": "JaegerCode@gmail.com"
-                }
-            ],
-            "description": "QueryList是基于phpQuery的无比强大的PHP采集工具",
-            "homepage": "http://querylist.cc",
-            "keywords": [
-                "QueryList",
-                "phpQuery",
-                "spider"
-            ],
-            "time": "2017-06-09T04:25:07+00:00"
-        },
-        {
-            "name": "kiddyu/beanbun",
-            "version": "1.0.4",
->>>>>>> 17860097a0e61232ef2e2ead88bb4ce3bdeb86f9
             "source": {
                 "type": "git",
                 "url": "https://github.com/jae-jae/CurlMulti.git",
@@ -753,6 +655,51 @@
             ],
             "description": "QueryList扩展，Request网络操作扩展",
             "time": "2015-12-28T06:24:02+00:00"
+        },
+        {
+            "name": "mgargano/simplehtmldom",
+            "version": "1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matgargano/simplehtmldom.git",
+                "reference": "37fb0d7c1bda45c5a4cf14fdef56c1edf6aa42be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/matgargano/simplehtmldom/37fb0d7c1bda45c5a4cf14fdef56c1edf6aa42be.zip",
+                "reference": "37fb0d7c1bda45c5a4cf14fdef56c1edf6aa42be",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SimpleHtmlDom": "src/"
+                },
+                "files": [
+                    "src/simple_html_dom.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "The MIT License"
+            ],
+            "authors": [
+                {
+                    "name": "S.C. Chen",
+                    "email": "me578022@gmail.com"
+                }
+            ],
+            "description": "Composer package that gives you access to and (unlike all the others at this time) autoloads S.C. Chen's PHP Simple HTML DOM Parser Library",
+            "homepage": "http://simplehtmldom.sourceforge.net/",
+            "keywords": [
+                "Simple",
+                "dom",
+                "html"
+            ],
+            "time": "2014-01-05T18:17:34+00:00"
         },
         {
             "name": "owner888/phpspider",

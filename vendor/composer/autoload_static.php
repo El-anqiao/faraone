@@ -4,13 +4,14 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
+class ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '6d24ec41656f2a8977f18c371fd6f1a2' => __DIR__ . '/..' . '/mgargano/simplehtmldom/src/simple_html_dom.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -34,10 +35,6 @@ class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
         array (
             'QL\\Ext\\Lib\\' => 11,
             'QL\\Ext\\' => 7,
-            'QL\\' => 3,
-        ),
-        'Q' => 
-        array (
             'QL\\' => 3,
         ),
         'P' => 
@@ -90,14 +87,10 @@ class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
         'QL\\Ext\\' => 
         array (
             0 => __DIR__ . '/..' . '/jaeger/querylist-ext-aquery',
-            1 => __DIR__ . '/..' . '/jaeger/querylist-ext-dimage',
-            2 => __DIR__ . '/..' . '/jaeger/querylist-ext-request',
-            3 => __DIR__ . '/..' . '/jaeger/querylist-ext-login',
-            4 => __DIR__ . '/..' . '/jaeger/querylist-ext-multi',
-        ),
-        'QL\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/jaeger/querylist',
+            1 => __DIR__ . '/..' . '/jaeger/querylist-ext-request',
+            2 => __DIR__ . '/..' . '/jaeger/querylist-ext-login',
+            3 => __DIR__ . '/..' . '/jaeger/querylist-ext-multi',
+            4 => __DIR__ . '/..' . '/jaeger/querylist-ext-dimage',
         ),
         'QL\\' => 
         array (
@@ -125,8 +118,17 @@ class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
         ),
     );
 
-    public static $classMap = array (
+    public static $prefixesPsr0 = array (
+        'S' => 
+        array (
+            'SimpleHtmlDom' => 
+            array (
+                0 => __DIR__ . '/..' . '/mgargano/simplehtmldom/src',
+            ),
+        ),
+    );
 
+    public static $classMap = array (
         'Callback' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
         'CallbackBody' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
         'CallbackParam' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/Callback.php',
@@ -146,15 +148,15 @@ class ComposerStaticInit24d525ed29f8a075f6821b249dc23560
         'phpQueryPlugin_WebBrowser' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/plugins/WebBrowser.php',
         'phpQueryPlugin_example' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery/plugins/example.php',
         'phpQueryPlugins' => __DIR__ . '/..' . '/electrolinux/phpquery/phpQuery/phpQuery.php',
-        
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit24d525ed29f8a075f6821b249dc23560::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit24d525ed29f8a075f6821b249dc23560::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit24d525ed29f8a075f6821b249dc23560::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53::$classMap;
 
         }, null, ClassLoader::class);
     }

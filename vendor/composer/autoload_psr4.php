@@ -6,7 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-<<<<<<< HEAD
     'phpspider\\' => array($vendorDir . '/owner888/phpspider'),
     'dzer\\coltaobao\\' => array($vendorDir . '/dzer/coltaobao/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
@@ -15,10 +14,7 @@ return array(
     'Symfony\\Component\\CssSelector\\' => array($vendorDir . '/symfony/css-selector'),
     'Symfony\\Component\\BrowserKit\\' => array($vendorDir . '/symfony/browser-kit'),
     'QL\\Ext\\Lib\\' => array($vendorDir . '/jaeger/http', $vendorDir . '/jaeger/curlmulti'),
-    'QL\\Ext\\' => array($vendorDir . '/jaeger/querylist-ext-aquery', $vendorDir . '/jaeger/querylist-ext-dimage', $vendorDir . '/jaeger/querylist-ext-request', $vendorDir . '/jaeger/querylist-ext-login', $vendorDir . '/jaeger/querylist-ext-multi'),
-=======
-    'Workerman\\' => array($vendorDir . '/workerman/workerman'),
->>>>>>> 17860097a0e61232ef2e2ead88bb4ce3bdeb86f9
+    'QL\\Ext\\' => array($vendorDir . '/jaeger/querylist-ext-aquery', $vendorDir . '/jaeger/querylist-ext-request', $vendorDir . '/jaeger/querylist-ext-login', $vendorDir . '/jaeger/querylist-ext-multi', $vendorDir . '/jaeger/querylist-ext-dimage'),
     'QL\\' => array($vendorDir . '/jaeger/querylist'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
