@@ -10,6 +10,7 @@
         "dzer/coltaobao": "^2.1",
         "owner888/phpspider": "^2.0",
         "electrolinux/phpquery": "^0.9.6",
-        "mgargano/simplehtmldom": "^1.5"
+        "mgargano/simplehtmldom": "^1.5",
+        "vbot/hot-girl": "^1.0"
     }
 }

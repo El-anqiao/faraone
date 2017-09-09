@@ -8,6 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'phpspider\\' => array($vendorDir . '/owner888/phpspider'),
     'dzer\\coltaobao\\' => array($vendorDir . '/dzer/coltaobao/src'),
+    'Vbot\\Http\\' => array($vendorDir . '/vbot/http/src'),
+    'Vbot\\HotGirl\\' => array($vendorDir . '/vbot/hot-girl/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\Process\\' => array($vendorDir . '/symfony/process'),
     'Symfony\\Component\\DomCrawler\\' => array($vendorDir . '/symfony/dom-crawler'),

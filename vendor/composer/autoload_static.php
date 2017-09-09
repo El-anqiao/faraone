@@ -23,6 +23,11 @@ class ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53
         array (
             'dzer\\coltaobao\\' => 15,
         ),
+        'V' => 
+        array (
+            'Vbot\\Http\\' => 10,
+            'Vbot\\HotGirl\\' => 13,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -58,6 +63,14 @@ class ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53
         'dzer\\coltaobao\\' => 
         array (
             0 => __DIR__ . '/..' . '/dzer/coltaobao/src',
+        ),
+        'Vbot\\Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vbot/http/src',
+        ),
+        'Vbot\\HotGirl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vbot/hot-girl/src',
         ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (

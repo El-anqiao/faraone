@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "65f424df5b7bd0abdcfadefdbcfac659",
+    "content-hash": "63ff2da41aaca8d58475886ddd28a111",
     "packages": [
         {
             "name": "dzer/coltaobao",
@@ -1070,6 +1070,92 @@
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
             "time": "2017-07-29T21:54:42+00:00"
+        },
+        {
+            "name": "vbot/hot-girl",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpvbot/hot-girl.git",
+                "reference": "99afdb04585e0ece5d9128d7f87096fcae4ce6d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/phpvbot/hot-girl/99afdb04585e0ece5d9128d7f87096fcae4ce6d8.zip",
+                "reference": "99afdb04585e0ece5d9128d7f87096fcae4ce6d8",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/css-selector": "~3.0",
+                "symfony/dom-crawler": "~3.0",
+                "vbot/http": "~1.0"
+            },
+            "require-dev": {
+                "hanson/vbot": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vbot\\HotGirl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JaQuan",
+                    "email": "chinese.jk@gmail.com"
+                }
+            ],
+            "description": "Vbot 扩展，抓取网络上的辣妹图",
+            "keywords": [
+                "Vbot",
+                "扩展",
+                "辣妹"
+            ],
+            "time": "2017-07-23T16:34:45+00:00"
+        },
+        {
+            "name": "vbot/http",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpvbot/http.git",
+                "reference": "80df25beb10711812f0b408dfd4d674696ba8110"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/phpvbot/http/80df25beb10711812f0b408dfd4d674696ba8110.zip",
+                "reference": "80df25beb10711812f0b408dfd4d674696ba8110",
+                "shasum": ""
+            },
+            "require-dev": {
+                "hanson/vbot": "^2.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vbot\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JaQuan",
+                    "email": "chinese.jk@gmail.com"
+                }
+            ],
+            "description": "Vbot Guzzle Http Client",
+            "keywords": [
+                "Vbot",
+                "http"
+            ],
+            "time": "2017-06-19T17:50:31+00:00"
         }
     ],
     "packages-dev": [],
