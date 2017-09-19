@@ -1021,7 +1021,7 @@ jQuery.browser = {
 var styleFloat = jQuery.browser.msie ? "styleFloat" : "cssFloat";
 	
 jQuery.extend({
-	// Check to see if the W3C box model is being used
+	// Check to see if the W3C box models is being used
 	boxModel: !jQuery.browser.msie || document.compatMode == "CSS1Compat",
 	
 	styleFloat: jQuery.browser.msie ? "styleFloat" : "cssFloat",

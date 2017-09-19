@@ -11,10 +11,15 @@ class ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        'd65a7b732574be2e37fbdc7082a19f37' => __DIR__ . '/..' . '/whitemerry/phpkin/src/functions.php',
         '6d24ec41656f2a8977f18c371fd6f1a2' => __DIR__ . '/..' . '/mgargano/simplehtmldom/src/simple_html_dom.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'w' => 
+        array (
+            'whitemerry\\phpkin\\' => 18,
+        ),
         'p' => 
         array (
             'phpspider\\' => 10,
@@ -31,9 +36,14 @@ class ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\Process\\' => 26,
+            'Symfony\\Component\\Filesystem\\' => 29,
             'Symfony\\Component\\DomCrawler\\' => 29,
+            'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\CssSelector\\' => 30,
+            'Symfony\\Component\\Console\\' => 26,
+            'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Component\\BrowserKit\\' => 29,
         ),
         'Q' => 
@@ -44,7 +54,14 @@ class ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53
         ),
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
+            'Psr\\Container\\' => 14,
+            'Phinx\\' => 6,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
         ),
         'G' => 
         array (
@@ -53,9 +70,33 @@ class ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53
             'GuzzleHttp\\' => 11,
             'Goutte\\' => 7,
         ),
+        'F' => 
+        array (
+            'FSth\\Redis\\Tests\\' => 17,
+            'FSth\\Redis\\' => 11,
+            'FSth\\Framework\\Test\\' => 20,
+            'FSth\\Framework\\' => 15,
+        ),
+        'D' => 
+        array (
+            'Dotenv\\' => 7,
+            'Doctrine\\Common\\Inflector\\' => 26,
+            'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\Annotations\\' => 28,
+            'Doctrine\\Common\\' => 16,
+        ),
+        'C' => 
+        array (
+            'Codeages\\Beanstalk\\Tests\\' => 25,
+            'Codeages\\Beanstalk\\' => 19,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'whitemerry\\phpkin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/whitemerry/phpkin/src',
+        ),
         'phpspider\\' => 
         array (
             0 => __DIR__ . '/..' . '/owner888/phpspider',
@@ -76,17 +117,37 @@ class ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
+        'Symfony\\Component\\Yaml\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
         'Symfony\\Component\\Process\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/process',
+        ),
+        'Symfony\\Component\\Filesystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/filesystem',
         ),
         'Symfony\\Component\\DomCrawler\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/dom-crawler',
         ),
+        'Symfony\\Component\\Debug\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/debug',
+        ),
         'Symfony\\Component\\CssSelector\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/css-selector',
+        ),
+        'Symfony\\Component\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Symfony\\Component\\Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/config',
         ),
         'Symfony\\Component\\BrowserKit\\' => 
         array (
@@ -109,9 +170,25 @@ class ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53
         array (
             0 => __DIR__ . '/..' . '/jaeger/querylist',
         ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Phinx\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/robmorgan/phinx/src/Phinx',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -129,6 +206,50 @@ class ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53
         array (
             0 => __DIR__ . '/..' . '/fabpot/goutte/Goutte',
         ),
+        'FSth\\Redis\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fsth/redis-client/tests',
+        ),
+        'FSth\\Redis\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fsth/redis-client/src',
+        ),
+        'FSth\\Framework\\Test\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fsth/framework/tests',
+        ),
+        'FSth\\Framework\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fsth/framework/src',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
+        'Doctrine\\Common\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
+        ),
+        'Doctrine\\Common\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Common\\Annotations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
+        ),
+        'Doctrine\\Common\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
+        ),
+        'Codeages\\Beanstalk\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codeages/beanstalk-client/tests',
+        ),
+        'Codeages\\Beanstalk\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codeages/beanstalk-client/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -137,6 +258,35 @@ class ComposerStaticInite9295e30af2a6aca5c74f4f0e2a70b53
             'SimpleHtmlDom' => 
             array (
                 0 => __DIR__ . '/..' . '/mgargano/simplehtmldom/src',
+            ),
+        ),
+        'P' => 
+        array (
+            'Pimple' => 
+            array (
+                0 => __DIR__ . '/..' . '/pimple/pimple/src',
+            ),
+        ),
+        'E' => 
+        array (
+            'Env' => 
+            array (
+                0 => __DIR__ . '/..' . '/oscarotero/env/src',
+            ),
+        ),
+        'D' => 
+        array (
+            'Doctrine\\DBAL\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/dbal/lib',
+            ),
+            'Doctrine\\Common\\Lexer\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
+            ),
+            'Doctrine\\Common\\Collections\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/collections/lib',
             ),
         ),
     );

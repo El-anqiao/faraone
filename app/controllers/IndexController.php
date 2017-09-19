@@ -3,12 +3,35 @@
 
 use QL\QueryList;
 #use phpQuery;
+use Faraone\Models\Country;
 class IndexController extends ControllerBase
 {
 
     public function indexAction()
     {
         set_time_limit(0);
+        $coun=new Country();
+        //获取采集对象
+        $hj = QueryList::Query('https://www.alexa.com/topsites/countries',array(
+            'title'=>array('.countries li a','text'),
+            'link'=>array('.countries li a','href')
+        ));
+
+        foreach ($hj->data as $country){
+            #保存国家数据
+            if(!$coun::count("name='".$country['title']."'"))
+            {
+                $coun=new Country();
+                $coun->name=$country['title'];
+                $coun->show_in_front=1;
+                $coun->iso_code=str_replace("/topsites/countries/",'',$country['link']);
+                $coun->create();
+
+            }
+        }
+
+        //输出结果：二维关联数组
+        print_r($hj->data);die;
 
         phpQuery::newDocumentFile('https://www.alexa.com/topsites/countries/AF');
 
@@ -24,21 +47,10 @@ class IndexController extends ControllerBase
 
             $rs[]=$result;
         }
-        var_dump($rs);die;
+        print_r($rs);die;
         var_dump('aa');die;
-//获取采集对象
-        $hj = QueryList::Query('https://www.alexa.com/topsites/countries',array(
-            'title'=>array('.countries li a','text'),
-            'link'=>array('.countries li a','href')
-        ));
-//输出结果：二维关联数组
-       // print_r($hj->data);die;
 
 
-        function callfun1($content,$key)
-        {
-            return '回调函数1：'.$key.'-'.$content;
-        }
 
 
         $hj =QueryList::Query(
